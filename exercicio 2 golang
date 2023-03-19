@@ -1,0 +1,10 @@
+Faça um algoritmo que leia um número inteiro e mostre o seu dobro, triplo e quadruplo.
+func main() {
+	var x int64
+
+	fmt.Print("Insira um numero inteiro =")
+	fmt.Scan(&x)
+	fmt.Println("Dobro =", (x * 2))
+	fmt.Println(" Triplo =", (x * 3))
+	fmt.Println("Quadruplo=", (x * 4))
+
