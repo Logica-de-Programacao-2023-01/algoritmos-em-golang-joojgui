@@ -1,0 +1,11 @@
+
+
+
+var x float64
+	var y float64
+
+	fmt.Print("Qual seu peso em Kg?")
+	fmt.Scan(&x)
+	fmt.Print("Qual sua altura?")
+	fmt.Scan(&y)
+	fmt.Println("seu imc= ", x/(y*y))
