@@ -1,0 +1,6 @@
+func main() {
+	var x int64
+
+	fmt.Print("Quantos anos você tem?")
+	fmt.Scan(&x)
+	fmt.Println("Convertendo para dias fica: ", x*365)
