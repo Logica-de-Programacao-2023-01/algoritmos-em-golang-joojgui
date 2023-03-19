@@ -1,0 +1,11 @@
+var x float64
+	var y float64
+	var z float64
+	fmt.Print("digite o primeiro número: ")
+	fmt.Scan(&x)
+	fmt.Print(" Digite o segundo número: ")
+	fmt.Scan(&y)
+	fmt.Print("Digite o terceiro número: ")
+	fmt.Scan(&z)
+
+	fmt.Println("Resultado: ", (x*2+y*3+z*5)/10)
