@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x int64
+	var y int64
+	var z int64
+	fmt.Print("insira 3 numeros inteiros =")
+	fmt.Scan(&x, &y, &z)
+	fmt.Println("Resultado =", (x + y + z))
+
+}
