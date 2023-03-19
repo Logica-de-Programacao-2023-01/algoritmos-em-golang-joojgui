@@ -1,0 +1,7 @@
+func main() {
+	var x float64
+
+	fmt.Print("Digite seu salário ")
+	fmt.Scan(&x)
+	fmt.Println("Seu novo salário: ", x+(x*15)/100)
+}
