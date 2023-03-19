@@ -1,0 +1,7 @@
+func main() {
+	var x float64
+	fmt.Print("Digite o peso em kg: ")
+	fmt.Scan(&x)
+	fmt.Println("Em libras fica: ", x*2.205)
+
+}
