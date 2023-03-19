@@ -1,0 +1,4 @@
+var x float64
+	fmt.Print("Digite o preço do produto: ")
+	fmt.Scan(&x)
+	fmt.Println("Com desconto o preço fica: ", x-(x*10)/100)
