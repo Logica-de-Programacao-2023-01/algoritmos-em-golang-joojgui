@@ -1,0 +1,10 @@
+var x float64
+	var y float64
+
+	fmt.Print("Digite quantos dias você trabalhou: ")
+	fmt.Scan(&x)
+	fmt.Print("")
+	fmt.Print("Digite o valor da sua diária: ")
+	fmt.Scan(&y)
+	fmt.Println("Seu salário :", x*y)
+  
